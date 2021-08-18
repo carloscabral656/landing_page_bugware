@@ -108,7 +108,9 @@ section.secao3 h1{
     font-family: var(--main-font);
     margin: 0;
     font-size: 40px;
+    padding: 10px;
     z-index: 3;
+    text-align: center;
 }
 
 section.secao3 p{
@@ -161,7 +163,7 @@ section.secao4 header p{
 
 
 .smartphone{
-
+    max-width: 100%;
 }
 
 section.secao4 footer{
@@ -196,7 +198,6 @@ section.secao4 footer div p{
 
 /*=======================================================*/
 .secao5{
-    display: flex;
     background-color: rgb(243, 243, 243);
     padding: 5rem 9rem;
 }
@@ -204,46 +205,53 @@ section.secao4 footer div p{
     .secao5 section{
        
     }
+    .secao5-interno{
+        display: flex;
+        justify-content: center;
+        padding: 50px 10px;
+    }
+
     /* Movimento empresa junior */
     .secao5 .mej{
-        width: 40%;
-        padding: 50px 10px;
+        width: 35%;
+        display: flex;
+        flex-direction: column;
+        padding: 0 60px;
     }
 
     .secao5 .mej h1{
         font-family: var(--main-font);
-        font-size: 40px;
         text-align: left;
         margin: 0px;
-        width: 50%;
         font-weight: 700;
+        font-size: 50px;
     }
 
     .secao5 .mej p{
-        margin: 50px 0px;
+        padding: 50px 0px;
         font-family: Arial;
         font-size: 12px;
         color:rgb(185, 185, 185);
         font-weight: 600;
-        width: 70%;
         line-height: 25px;
+        margin: 0;
     }
 
     .secao5 .mej .button-mej{
         background-color: #3E194D;
         color:#A7FBD3;
         padding: 1.3em 2.6rem;
-        margin: 50px 0px;
+        /*margin: 50px 0px;*/
         border-radius: 5px;
         border: none;
         font-weight: 600;
+        max-width: 250px;
     }
 
     /*Div de membros*/
 
     .img-membros{
-        width: 60%;
-        padding: 50px 10px;
+        width: 65%;
     }
 
     .img-m{
@@ -259,8 +267,19 @@ section.secao4 footer div p{
             justify-content: center;
         }
 
-        section.secao-3{
+        section.secao3{
             text-align: center;
+        }
+
+        section.secao3 p{
+            /*Tirando o margin padrão da tag 'p'*/
+            margin: 0;
+            margin-bottom: 10px;
+        }
+
+        section.secao3 h1{
+            text-align: center;
+            font-size: 40px;
         }
 
         section.secao4 footer{
@@ -279,18 +298,23 @@ section.secao4 footer div p{
             padding: 0;
         }
 
+        .secao5-interno{
+            flex-wrap: wrap;
+        }
+
         .secao5 .mej{
             width: 100%;
             padding: 20px;
+            align-items: center;
         }
 
         .secao5 .mej h1{
             font-family: var(--main-font);
-            font-size: 20px;
             text-align: center;
             margin: 0px;
             text-align: center;
             width: 100%;
+            font-size: 20px;
         }
     
         .secao5 .mej p{
@@ -308,10 +332,9 @@ section.secao4 footer div p{
             background-color: #3E194D;
             color:#A7FBD3;
             padding: 1.3em 2.6rem;
-            margin-bottom: 50px;
             border-radius: 5px;
             border: none;
-            width: 100%;
+            margin: 0 auto;
         }
 
         /*Div de membros*/
