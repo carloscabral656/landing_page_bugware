@@ -15,7 +15,6 @@ body{
 }
 
 .secao1{
-    height: 150px;
 }
 
 .img-titulo{
@@ -195,7 +194,58 @@ section.secao4 footer div p{
     text-align: right;
 }
 
+/*=======================================================*/
+.secao5{
+    display: flex;
+    background-color: rgb(243, 243, 243);
+    padding: 10rem;
+}
 
+    .secao5 section{
+       
+    }
+    /* Movimento empresa junior */
+    .secao5 .mej{
+        width: 40%;
+        padding: 0 10px;
+    }
+
+    .secao5 .mej h1{
+        font-family: var(--main-font);
+        font-size: 40px;
+        text-align: left;
+        margin: 0px;
+    }
+
+    .secao5 .mej p{
+        margin: 50px 0px;
+        font-family: Arial;
+        font-size: 12px;
+        color:rgb(185, 185, 185);
+        font-weight: 600;
+        width: 70%;
+        line-height: 25px;
+    }
+
+    .secao5 .mej .button-mej{
+        background-color: #3E194D;
+        color:#A7FBD3;
+        padding: 1.3em 2.6rem;
+        margin: 50px 0px;
+        border-radius: 5px;
+        border: none;
+    }
+
+    /*Div de membros*/
+
+    .img-membros{
+        width: 60%;
+        padding: 50px 10px;
+    }
+
+    .img-m{
+        width: 100%;
+    }
 
 
     /* Menor que 680px fazer isso aqui */
@@ -218,5 +268,57 @@ section.secao4 footer div p{
         .text-right{
             text-align: center;
         }
+
+        /* Estilização da seção 5 no media query*/
+        section.secao5{
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 0;
+        }
+
+        .secao5 .mej{
+            width: 100%;
+            padding: 20px;
+        }
+
+        .secao5 .mej h1{
+            font-family: var(--main-font);
+            font-size: 20px;
+            text-align: center;
+            margin: 0px;
+        }
+    
+        .secao5 .mej p{
+            margin: 30px 0px;
+            width: 100%;
+            font-family: Arial;
+            font-size: 12px;
+            color:rgb(185, 185, 185);
+            font-weight: 600;
+            line-height: 25px;
+            text-align: justify;
+        }
+    
+        .secao5 .mej .button-mej{
+            background-color: #3E194D;
+            color:#A7FBD3;
+            padding: 1.3em 2.6rem;
+            margin-bottom: 50px;
+            border-radius: 5px;
+            border: none;
+            width: 100%;
+        }
+
+        /*Div de membros*/
+
+        .img-membros{
+            width: 100%;
+            padding: 10px;
+        }
+
+        .img-m{
+            width: 100%;
+        }
+    
 
     }    
