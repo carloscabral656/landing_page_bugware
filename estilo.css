@@ -198,7 +198,7 @@ section.secao4 footer div p{
 .secao5{
     display: flex;
     background-color: rgb(243, 243, 243);
-    padding: 10rem;
+    padding: 5rem;
 }
 
     .secao5 section{
@@ -207,7 +207,7 @@ section.secao4 footer div p{
     /* Movimento empresa junior */
     .secao5 .mej{
         width: 40%;
-        padding: 0 10px;
+        padding: 50px 10px;
     }
 
     .secao5 .mej h1{
@@ -215,6 +215,7 @@ section.secao4 footer div p{
         font-size: 40px;
         text-align: left;
         margin: 0px;
+        width: 50%;
     }
 
     .secao5 .mej p{
@@ -234,6 +235,7 @@ section.secao4 footer div p{
         margin: 50px 0px;
         border-radius: 5px;
         border: none;
+        font-weight: 600;
     }
 
     /*Div de membros*/
@@ -286,6 +288,8 @@ section.secao4 footer div p{
             font-size: 20px;
             text-align: center;
             margin: 0px;
+            text-align: center;
+            width: 100%;
         }
     
         .secao5 .mej p{
