@@ -198,7 +198,7 @@ section.secao4 footer div p{
 .secao5{
     display: flex;
     background-color: rgb(243, 243, 243);
-    padding: 5rem;
+    padding: 5rem 9rem;
 }
 
     .secao5 section{
@@ -216,6 +216,7 @@ section.secao4 footer div p{
         text-align: left;
         margin: 0px;
         width: 50%;
+        font-weight: 700;
     }
 
     .secao5 .mej p{
